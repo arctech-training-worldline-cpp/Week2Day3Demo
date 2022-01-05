@@ -43,7 +43,7 @@ int main()
     PolymorphicElectricCar e;
     e.Accelerate();
     e.Accelerate();
-    cout << "2.speed = " << e.GetSpeed() << endl;  // 20
+    cout << "2.speed = " << e.GetSpeed() << endl;  // 60
 
     cout << "---------------------------------" << endl;
     
@@ -51,12 +51,12 @@ int main()
     // Find out and explain why.
     PolymorphicCar* carPtr = new PolymorphicCar();
     carPtr->Accelerate();
-    cout << "3.speed = " << carPtr->GetSpeed() << endl;
+    cout << "3.speed = " << carPtr->GetSpeed() << endl; // ?
 
     carPtr = new PolymorphicElectricCar();
     carPtr->Accelerate();
     carPtr->Accelerate();
-    cout << "4.speed = " << carPtr->GetSpeed() << endl;
+    cout << "4.speed = " << carPtr->GetSpeed() << endl; // ?
     cout << "---------------------------------" << endl;
     return 0;
 }
