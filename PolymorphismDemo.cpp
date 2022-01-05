@@ -34,7 +34,7 @@ class PolymorphicElectricCar : public PolymorphicCar
 
 int main()
 {
-    cout << "---------------------------------";
+    cout << "---------------------------------" << endl;
     // What is the output of the below code. Answer given below!
     PolymorphicCar c;
     c.Accelerate();
@@ -45,7 +45,7 @@ int main()
     e.Accelerate();
     cout << "2.speed = " << e.GetSpeed() << endl;  // 20
 
-    cout << "---------------------------------";
+    cout << "---------------------------------" << endl;
     
     // What is the output of the below code.
     // Find out and explain why.
@@ -57,7 +57,7 @@ int main()
     carPtr->Accelerate();
     carPtr->Accelerate();
     cout << "4.speed = " << carPtr->GetSpeed() << endl;
-    cout << "---------------------------------";
+    cout << "---------------------------------" << endl;
     return 0;
 }
 
