@@ -27,7 +27,7 @@ class PolymorphicElectricCar : public PolymorphicCar
         //     Note: This is different to Method OverLoading
         void Accelerate()
         {
-            speed += 10;
+            speed += 30;
             cout << "ElectricCar Accelerate" << endl;
         }
 };
